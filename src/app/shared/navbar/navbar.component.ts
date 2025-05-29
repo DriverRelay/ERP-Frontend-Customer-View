@@ -1,6 +1,7 @@
-import {Component, ElementRef, HostListener, signal, ViewChild, WritableSignal} from '@angular/core';
+import {Component, ElementRef, HostListener, inject, Signal, signal, ViewChild, WritableSignal} from '@angular/core';
 import {RouterLink} from '@angular/router';
 import {NgClass} from '@angular/common';
+import {applicationStore} from '../store/application.store';
 
 @Component({
   selector: 'app-navbar',
@@ -11,6 +12,9 @@ import {NgClass} from '@angular/common';
   templateUrl: './navbar.component.html',
 })
 export class NavbarComponent {
+
+  private readonly applicationStore = inject(applicationStore);
+  protected readonly isSignedIn: Signal<boolean> = this.applicationStore.signedIn;
 
   @ViewChild('dropdownContainer') dropdownContainer!: ElementRef;
   @ViewChild('toggleButton') dropdownButton!: ElementRef;
